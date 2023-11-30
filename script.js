@@ -18,7 +18,7 @@ let startGame = () => {
       );
     } else if (angkaUser < randomize) {
       document.write(
-        `Maaf kamu gagal... <br> <b>${angkaUser}</b> < ${randomize}`
+        `Maaf! angka kamu lebih kecil dari yang di acak... <br> <b>${angkaUser}</b> < ${randomize}`
       );
     } else if (angkaUser == randomize) {
       document.write(`Hasil seri! <br> ${angkaUser} = ${randomize}`);
