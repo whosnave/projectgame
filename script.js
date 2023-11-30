@@ -5,7 +5,7 @@ for (let i = 1; i <= 100; i++) {
 
 let startGame = () => {
   alert(
-    "Selamat datang di MindMatrix!\n\nDimana Anda akan memilih angka dari 1 - 99 dan jika angka pilihan Anda lebih kecil maka Anda kalah."
+    "Selamat datang di MindMatrix!\n\nDimana kamu akan memilih angka dari 1 - 99 dan jika angka pilihan kamu lebih kecil maka kamu kalah."
   );
 
   let angkaUser = prompt("Masukkan angka pilihan Anda!");
