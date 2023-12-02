@@ -25,6 +25,7 @@ let startGame = () => {
     }
   } else {
     alert("Masukkan angka yang valid!");
+    startGame();
   }
 };
 
